@@ -7,18 +7,19 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 48px;
     background-color: #1F2937;
+    padding: 8px;
 }
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
     color: #F9FAF8;
-    margin-left: 120px;
+    margin-left: 400px;
 }
 
 .header-links {
-    margin-right: 120px;
+    margin-right: 400px;
 }
 
 ul {
@@ -41,7 +42,7 @@ a {
 }
 
 .text {
-    margin-left: 120px;
+    margin-left: 400px;
     height: 240px;
     width: 480px;
     display: flex;
@@ -74,7 +75,7 @@ button {
 
 img {
     height: 240px;
-    margin-right: 120px;
+    margin-right: 400px;
 }
 
 .info {
@@ -117,4 +118,30 @@ img {
     width: 180px;
     text-align: justify;
     text-align-last: center;
+}
+
+.quote-container {
+    height: 600px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    width: 864px;
+    text-align: justify;
+}
+
+.author {
+    width: 864px;
+    text-align: right;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
 }
